@@ -1,0 +1,114 @@
+nav {
+    background-color: #7c0000;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav ul li a:hover {
+    color: black;
+}
+body {
+
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 50px;
+   background-image: url(p2.jpg);
+}
+header {
+    background-color: aquamarine;
+    .text {
+    color: red;
+    }
+}
+.product img {
+    width: 200px;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+.price {
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+}
+.about {
+    text-align: center;
+    padding: 20px 10px;
+    
+    color: white;
+}
+
+.about h2 {
+    font-size: 2em;
+    color: red;
+}
+
+.about-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  
+}
+
+.about {
+     padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.about img {
+    width: 50%;
+    border-radius: 5px;
+}
+
+.red-text {
+    color: red;
+    font-weight: bold;
+}
+button {
+    background-color: red;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+section {
+    background: rgb(255, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
